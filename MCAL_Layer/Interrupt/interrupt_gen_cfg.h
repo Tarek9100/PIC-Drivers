@@ -1,0 +1,49 @@
+/* 
+ * File:   interrupt_gen_cfg.h
+ * Author: ENG TAREK
+ *
+ */
+
+#ifndef INTERRUPT_GEN_CFG_H
+#define	INTERRUPT_GEN_CFG_H
+
+/* Section : Includes */
+
+/* Section : Macro Declarations */
+#define FEATURE_ENABLE   1
+#define FEATURE_DISABLE  0
+
+/*Options: 1- FEATURE_ENABLE
+           2- FEATURE_DISABLE
+ */
+#define INTERRUPT_PRIORITY_LEVELS_ENABLE             FEATURE_DISABLE
+#define EXTERNAL_INTERRUPT_INTX_ENABLE               FEATURE_ENABLE
+#define EXTERNAL_INTERRUPT_ONCHANGE_ENABLE           FEATURE_ENABLE
+
+#define INTERNAL_INTERRUPT_ADC_ENABLE                FEATURE_ENABLE
+
+#define INTERNAL_INTERRUPT_TIMER0_ENABLE             FEATURE_ENABLE
+#define INTERNAL_INTERRUPT_TIMER1_ENABLE             FEATURE_ENABLE
+#define INTERNAL_INTERRUPT_TIMER2_ENABLE             FEATURE_ENABLE
+#define INTERNAL_INTERRUPT_TIMER3_ENABLE             FEATURE_ENABLE
+#define INTERNAL_INTERRUPT_CCP1_ENABLE               FEATURE_ENABLE 
+#define INTERNAL_INTERRUPT_CCP2_ENABLE               FEATURE_ENABLE 
+
+#define INTERNAL_INTERRUPT_USART_TX_ENABLE           FEATURE_ENABLE
+#define INTERNAL_INTERRUPT_USART_RX_ENABLE           FEATURE_ENABLE
+
+#define INTERNAL_INTERRUPT_MSSP_I2C_ENABLE                   FEATURE_DISABLE
+#define INTERNAL_INTERRUPT_MSSP_I2C_BUS_COLLISION_ENABLE     FEATURE_DISABLE
+
+#define  INTERNAL_INTERRUPT_MSSP_SPI_ENABLE          FEATURE_ENABLE
+/* Section : Macro Function Declarations */ 
+
+/* Section : Data Type Declarations */
+
+/* Section : Function Declarations */
+
+/* Section : Function Declarations */
+
+
+#endif	/* INTERRUPT_GEN_CFG_H */
+
